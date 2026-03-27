@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+  <html>
+  <head><title>VIDEPRO - TikTok Auth</title></head>
+  <body style="font-family:Arial;text-align:center;padding:50px">
+  <h2>Connexion TikTok réussie !</h2>
+  <p>Copie ce code et colle-le dans VIDEPRO :</p>
+  <textarea id="code" style="width:600px;height:80px;font-size:16px" readonly></textarea>
+  <br><br>
+  <button onclick="navigator.clipboard.writeText(document.getElementById('code').value)" style="padding:10px
+  30px;font-size:16px;cursor:pointer">Copier le code</button>
+  <script>
+  var params = new URLSearchParams(window.location.search);
+  var code = params.get('code');
+  if(code) {
+    document.getElementById('code').value = code;
+  } else {
+    document.getElementById('code').value = 'Erreur: pas de code reçu';
+  }
+  </script>
+  </body>
+  </html>
