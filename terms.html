@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Service — VidSyncPro</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0A0A0F;
+    --bg-card: #12121A;
+    --accent: #7B5EE0;
+    --accent-dim: #7B5EE022;
+    --accent-glow: #7B5EE044;
+    --text: #E8E8ED;
+    --text-muted: #8888A0;
+    --text-dim: #555568;
+    --border: #1E1E2A;
+    --font-display: 'Outfit', sans-serif;
+    --font-body: 'DM Sans', sans-serif;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: var(--font-body);
+    background: var(--bg); color: var(--text);
+    line-height: 1.7; -webkit-font-smoothing: antialiased;
+  }
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: rgba(10,10,15,0.85); backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border); padding: 0 2rem;
+  }
+  .nav-inner {
+    max-width: 1100px; margin: 0 auto;
+    display: flex; align-items: center; justify-content: space-between; height: 64px;
+  }
+  .logo {
+    font-family: var(--font-display); font-weight: 800; font-size: 1.35rem;
+    text-decoration: none; letter-spacing: -0.5px;
+  }
+  .logo .vid { color: #6B4DC7; }
+  .logo .sync { color: #3BA4E0; }
+  .logo .pro { color: #F5A623; }
+  .nav-links { display: flex; gap: 1.8rem; align-items: center; }
+  .nav-links a {
+    color: var(--text-muted); text-decoration: none;
+    font-size: 0.88rem; font-weight: 500; transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--text); }
+  .nav-links a.active { color: var(--accent); }
+  .legal-section { padding: 8rem 2rem 5rem; }
+  .legal-section .container { max-width: 800px; margin: 0 auto; }
+  .legal-section h1 {
+    font-family: var(--font-display); font-size: 2.2rem;
+    font-weight: 700; margin-bottom: 0.5rem; letter-spacing: -0.5px;
+  }
+  .legal-updated {
+    color: var(--text-dim); font-size: 0.85rem;
+    margin-bottom: 3rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border);
+  }
+  .legal-section h2 {
+    font-family: var(--font-display); font-size: 1.25rem; font-weight: 600;
+    margin-top: 2.5rem; margin-bottom: 0.8rem; color: var(--text);
+  }
+  .legal-section p, .legal-section li {
+    color: var(--text-muted); font-size: 0.92rem; line-height: 1.8; margin-bottom: 0.8rem;
+  }
+  .legal-section ul { padding-left: 1.5rem; margin-bottom: 1rem; }
+  .legal-section li { margin-bottom: 0.4rem; }
+  .legal-section a { color: var(--accent); }
+  footer { border-top: 1px solid var(--border); padding: 3rem 2rem; }
+  .footer-inner {
+    max-width: 1100px; margin: 0 auto;
+    display: flex; flex-wrap: wrap; justify-content: space-between;
+    align-items: flex-start; gap: 2rem;
+  }
+  .footer-brand .logo { font-size: 1.15rem; }
+  .footer-brand p { color: var(--text-dim); font-size: 0.82rem; margin-top: 0.5rem; max-width: 280px; }
+  .footer-links { display: flex; gap: 3rem; }
+  .footer-col h4 {
+    font-family: var(--font-display); font-size: 0.78rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 1.5px; color: var(--text-dim); margin-bottom: 0.8rem;
+  }
+  .footer-col a {
+    display: block; color: var(--text-muted); text-decoration: none;
+    font-size: 0.88rem; padding: 0.25rem 0; transition: color 0.2s;
+  }
+  .footer-col a:hover { color: var(--text); }
+  .footer-bottom {
+    max-width: 1100px; margin: 2rem auto 0; padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    display: flex; flex-wrap: wrap; justify-content: space-between;
+    font-size: 0.78rem; color: var(--text-dim);
+  }
+  @media (max-width: 640px) {
+    .nav-links { gap: 1rem; }
+    .nav-links a { font-size: 0.78rem; }
+    .footer-links { flex-direction: column; gap: 1.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="logo"><span class="vid">Vid</span><span class="sync">Sync</span><span class="pro">Pro</span></a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="terms.html" class="active">Terms of Service</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </div>
+  </div>
+</nav>
+
+<section class="legal-section">
+  <div class="container">
+    <h1>Terms of Service</h1>
+    <p class="legal-updated">Last updated: April 7, 2026</p>
+
+    <h2>1. Acceptance of Terms</h2>
+    <p>By accessing or using VidSyncPro ("the Application", "the Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to all of these Terms, do not use the Application. These Terms constitute a legally binding agreement between you and VidSyncPro.</p>
+
+    <h2>2. Description of Service</h2>
+    <p>VidSyncPro is a desktop application that provides video content management, transcription, editing, and publishing tools for TikTok. The Service enables users to:</p>
+    <ul>
+      <li>Transcribe video audio using AI-powered speech recognition (Whisper)</li>
+      <li>Edit and process video content optimized for TikTok</li>
+      <li>Publish content directly to TikTok via the official Content Posting API</li>
+      <li>View analytics and performance metrics for their own TikTok videos</li>
+    </ul>
+
+    <h2>3. User Accounts and Authentication</h2>
+    <p>To use publishing and analytics features, you must connect your TikTok account through TikTok's official OAuth 2.0 authentication. You are responsible for maintaining the security of your connected accounts and for all activities that occur through your use of the Application. VidSyncPro never receives or stores your TikTok password.</p>
+
+    <h2>4. User Responsibilities</h2>
+    <p>You agree to:</p>
+    <ul>
+      <li>Use the Service only for lawful purposes and in accordance with these Terms</li>
+      <li>Not use the Service to upload, publish, or distribute content that violates any applicable law or third-party rights</li>
+      <li>Comply with TikTok's Terms of Service, Community Guidelines, and Developer Terms</li>
+      <li>Not attempt to reverse-engineer, decompile, or disassemble the Application</li>
+      <li>Not use the Service for spam, harassment, or any form of platform abuse</li>
+      <li>Not use automated systems to circumvent platform rate limits or restrictions</li>
+    </ul>
+
+    <h2>5. Content Ownership</h2>
+    <p>You retain all ownership rights to the content you create, upload, and publish through the Service. VidSyncPro does not claim ownership of your content. By using the Service, you grant VidSyncPro a limited, non-exclusive license to process your content solely for the purpose of providing the Service to you (e.g., transcription, video processing, uploading to TikTok on your behalf).</p>
+
+    <h2>6. Third-Party Platform Integration</h2>
+    <p>The Service integrates with TikTok via its official APIs. Your use of TikTok is governed by TikTok's own terms of service and privacy policies. VidSyncPro is not responsible for the actions, content, or policies of TikTok. We access your TikTok account only with your explicit OAuth authorization and only to perform the functions you request (publishing, analytics retrieval).</p>
+
+    <h2>7. Intellectual Property</h2>
+    <p>The Application, including its design, code, features, and documentation, is the intellectual property of VidSyncPro and is protected by applicable copyright and intellectual property laws. You may not copy, modify, distribute, or create derivative works from the Application.</p>
+
+    <h2>8. Limitation of Liability</h2>
+    <p>THE SERVICE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED. VIDSYNCPRO SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING FROM YOUR USE OF THE SERVICE, INCLUDING BUT NOT LIMITED TO LOSS OF CONTENT, ACCOUNT RESTRICTIONS IMPOSED BY TIKTOK, OR SERVICE INTERRUPTIONS. In no event shall VidSyncPro's total liability exceed the amount you paid for the Service in the twelve months preceding the claim.</p>
+
+    <h2>9. Service Availability</h2>
+    <p>We strive to maintain continuous availability of the Service but do not guarantee uninterrupted access. The Service may be temporarily unavailable due to maintenance, updates, TikTok API changes, or circumstances beyond our control. We reserve the right to modify, suspend, or discontinue any part of the Service at any time.</p>
+
+    <h2>10. Termination</h2>
+    <p>We may terminate or suspend your access to the Service at any time, with or without cause, with or without notice. Upon termination, your right to use the Service ceases immediately. You may stop using the Service at any time and disconnect your TikTok account through the Application or through TikTok's account settings.</p>
+
+    <h2>11. Changes to Terms</h2>
+    <p>We reserve the right to modify these Terms at any time. Changes will be effective upon posting to this page. Your continued use of the Service after changes are posted constitutes acceptance of the modified Terms. We encourage you to review these Terms periodically.</p>
+
+    <h2>12. Governing Law</h2>
+    <p>These Terms shall be governed by and construed in accordance with the laws of France, without regard to its conflict of law provisions.</p>
+
+    <h2>13. Contact Information</h2>
+    <p>For questions about these Terms of Service, please contact us at: <a href="mailto:lilbray972@gmail.com">lilbray972@gmail.com</a></p>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="logo"><span class="vid">Vid</span><span class="sync">Sync</span><span class="pro">Pro</span></a>
+      <p>Desktop video content studio for TikTok creators.</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <h4>Product</h4>
+        <a href="index.html">Home</a>
+        <a href="index.html#features">Features</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="terms.html">Terms of Service</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 VidSyncPro. All rights reserved.</span>
+    <span><a href="mailto:lilbray972@gmail.com" style="color:var(--text-dim);text-decoration:none;">lilbray972@gmail.com</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
